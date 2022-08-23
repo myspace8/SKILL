@@ -1,12 +1,10 @@
 const btn = document.querySelectorAll('.btn');
 
 const dropContent = document.querySelectorAll('.content');
-
-
+const welcomeContent = document.querySelector('.welcome-content');
 
     
 dropContent.forEach(content => {
-    content.style.display = 'none !important';
     btn.forEach(button => {
         button.addEventListener('click', () => {
             if (button.dataset.value == content.dataset.value) {

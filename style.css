@@ -66,18 +66,11 @@ img {
     width: 250px;
     text-transform: uppercase;
 }
-
-/* #active {
+/* 
+#active {
     margin: 20px 20px 0 ;
 } */
 
-.welcome button:focus, 
-.requirement button:focus,
-.tutors button:focus,
-.join_us button:focus {
-    outline: none;
-    background-color: #e84545;
-}
 
 .welcome button:active, 
 .requirement button:active,
@@ -85,6 +78,8 @@ img {
 .join_us button:active {
     transform: scale(0.99);
 }
+
+
 
 .welcome-content {
     display: flex;
@@ -96,22 +91,22 @@ img {
 
 /* ============================================== */
 
-.active {
-    display: flex !important;
-}
+
 
 .inactive-style {
     background-color: #e84545 !important;
     color: #fff !important;
 }
 
+
 .content {
-    display: none;
+    display: none !important;
 }
 
-.current {
+.active {
     display: flex;
 }
+
 
 /* =============================================== */
 
@@ -150,7 +145,7 @@ img {
     cursor: pointer;
     text-decoration: none;
     font-size: 1em;
-    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
 }
   
 .welcome-text a:active {
