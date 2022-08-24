@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 }
@@ -16,7 +18,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(image/background-image.png);
+    background-image: url(image/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -37,6 +39,8 @@ img {
 }
 
 .logo-content h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e84545;
     margin: 0;
     text-align: center;
 }
@@ -44,7 +48,7 @@ img {
 .welcome-container, 
 .requirement-container,
 .tutors-container,
-.join_us {
+.join_us-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,12 +92,18 @@ img {
     margin: 0 20px 20px;
 }
 
+.requirement-content {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+
 
 /* ============================================== */
 
 
 
-.inactive-style {
+.active {
     background-color: #e84545 !important;
     color: #fff !important;
 }
@@ -101,10 +111,6 @@ img {
 
 .content {
     display: none !important;
-}
-
-.active {
-    display: flex;
 }
 
 
