@@ -12,15 +12,15 @@ body {
 }
 
 header {
-    position: fixed;
-    background-color: #1f1f24;
+    position: fixed !important;
+    background-color: #1f1f24 !important;
     color: #fff;
     width: 100%;
     padding: 3px;
 }
 
 header .discount {
-    text-align: center;
+    text-align: center !important;
     font-size: 12px;
 }
 
