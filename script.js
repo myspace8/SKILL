@@ -10,7 +10,6 @@ dropContent.forEach(content => {
                 content.classList.toggle('content');
                 button.classList.toggle('active');
             }
-
         })
     });
 });
